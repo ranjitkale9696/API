@@ -32,7 +32,7 @@ class _ExampleTwoState extends State<ExampleTwo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('HomeScreen',style: TextStyle(fontSize: 10,),),
+          title: const Text('Photos and Title',style: TextStyle(fontSize: 20,),),
           backgroundColor: Colors.red
       ),
       body: Column(
