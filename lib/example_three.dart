@@ -19,7 +19,7 @@ class _ExampleThreeState extends State<ExampleThree> {
     if(response.statusCode ==200){
       for(Map i in data){
         print(i['name']);
-        userList.add(UserModel.fromJson(i));
+         userList.add(UserModel.fromJson(i));
       }
       return userList;
     }else{
